@@ -1,0 +1,332 @@
+#multistep_form {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#multistep_form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#multistep_form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#multistep_form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#multistep_form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#multistep_form input[type="submit"] {
+    background-color: #f68b33;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#multistep_form input[type="submit"]:hover {
+    background-color: #00b4d5;
+}
+
+#multistep_form button:not(.bin-btn):not(#customBtn) {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'museo';
+  color: #fff;
+  background-color: #f68b33;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#multistep_form button:not(.bin-btn):not(#customBtn):hover {
+  background-color: #00b4d5;
+}
+
+#multistep_form button:focus {
+  outline-color: #3a383a;
+  outline-width: 0.5px;
+}
+
+#multistep_form .bin-btn {
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+#multistep_form .bin-btn:hover {
+  background-color: transparent;
+}
+
+#multistep_form input[type="text"],
+#multistep_form input[type="email"],
+#multistep_form input[type="number"],
+#multistep_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000; /* Change this line */
+    border-radius: 3px;
+}
+
+#multistep_form #next {
+    width: 100%;
+}
+
+#title1 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title2 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title3 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title4 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title5 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title6 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title7 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#title8 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+#subheading1 {
+    color: #3a383a;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+.total-row {
+    background-color: #bdbdbd;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-container input {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.clientname-contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientname-contain input {
+    flex-basis: 49%;
+}
+
+.suburb-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suburb-container input {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.state-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.state-container input {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container1 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container2 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container3 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container4 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container5 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container6 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.button-container7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container7 button {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+.field-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.field-container1 label,
+.field-container1 select,
+.field-container1 input {
+    flex-basis: 49%; /* 100% minus the gap divided by 2 */
+}
+
+#customBtn {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'museo';
+  color: #fff;
+  background-color: #00b4d5;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#customBtn:hover {
+  background-color: #f68b33;
+}
+
+#customBtn:focus {
+  outline-color: #3a383a;
+    outline-width: 0.5px;
+}
+
+#electrical-phase {
+  margin-bottom: 20px;
+}
+
+.telco-container {
+    padding-top: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-column {
+  flex: 1;
+}
